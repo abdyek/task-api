@@ -39,11 +39,10 @@ curl --location --request POST 'http://127.0.0.1:8000/sign-up' \
 }'
 ```
 
-It should return
+If everything gone well It should return:
 
 ```json
 {"status":200,"message":"success"}
 ```
 
-
-
+Now! You can clone and run [client](https://github.com/abdyek/task-client) of this project to check it
